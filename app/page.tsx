@@ -4,11 +4,12 @@ import Section from "./components/Section";
 import { useEffect, useRef } from "react";
 import SpecialWord from "./components/SpecialWord";
 import Card from "./components/Card";
+import Discipline from "./components/Discipline";
 
 export default function Home() {
   return (
-    <main className="flex flex-col gap-5">
-      <div className="flex gap-3 flex-col items-center justify-center min-h-80">
+    <main className="flex flex-col gap-10">
+      <div className="flex gap-3 flex-col items-center justify-center mt-10">
         <h1 className="font-domine font-extrabold gap-[0.35ch] flex text-6xl text-black">
           A Place For
           <SpecialWord period>Everyone</SpecialWord>
@@ -42,6 +43,30 @@ export default function Home() {
           content="Pariatur proident excepteur nisi labore. Esse fugiat sit mollit ut id cillum nostrud. Eiusmod fugiat ea cillum ad ipsum ullamco officia irure in mollit incididunt cupidatat reprehenderit officia. Sunt dolor incididunt commodo dolor ut sit. Cupidatat fugiat occaecat elit voluptate fugiat eu duis. Eu mollit adipisicing magna in."
           image="/lenaea4.jpg"
         />
+      </div>
+      <div>
+        <h1 className="font-domine text-center text-black font-extrabold text-5xl gap-[0.3ch]">
+          Merging Together Different Disciplines of Theatre to
+          {/* <span className="flex"> */} Create Something...{" "}
+          <SpecialWord period>Spectacular</SpecialWord>
+          {/* </span> */}
+        </h1>
+        <div className="grid grid-cols-3 gap-3 mt-3">
+          <Discipline
+            title="Acting"
+            className="col-span-3"
+            image="/lenaea5.jpg"
+          />
+          <Discipline title="Costumes" image="/lenaea1.jpg" />
+          <Discipline title="Hair/Makeup" image="/lenaea1.jpg" />
+          <Discipline title="Props" image="/lenaea1.jpg" />
+          <Discipline title="Marketing" image="/lenaea1.jpg" />
+          <Discipline title="Sound" image="/sound.jpg" />
+          <Discipline title="Lights" image="/lights.jpg" />
+          <Discipline title="Set" image="/set.png" />
+          <Discipline title="Stage Management" image="/lenaea1.jpg" />
+          <Discipline title="Directing" image="/lenaea1.jpg" />
+        </div>
       </div>
     </main>
   );
