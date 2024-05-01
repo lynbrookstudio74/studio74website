@@ -31,7 +31,7 @@ export default function Home() {
         <Card
           title="Productions"
           content="Pariatur proident excepteur nisi labore. Esse fugiat sit mollit ut id cillum nostrud. Eiusmod fugiat ea cillum ad ipsum ullamco officia irure in mollit incididunt cupidatat reprehenderit officia. Sunt dolor incididunt commodo dolor ut sit. Cupidatat fugiat occaecat elit voluptate fugiat eu duis. Eu mollit adipisicing magna in."
-          image="/placeholder.webp"
+          image="/prod.png"
         />
         <Card
           title="Improv"
@@ -64,7 +64,7 @@ export default function Home() {
           <Discipline title="Sound" image="/sound.jpg" />
           <Discipline title="Lights" image="/lights.jpg" />
           <Discipline title="Set" image="/set.png" />
-          <Discipline title="Stage Management" image="/lenaea1.jpg" />
+          <Discipline title="Stage Management" image="/stageman.jpeg" />
           <Discipline title="Directing" image="/lenaea1.jpg" />
         </div>
       </div>

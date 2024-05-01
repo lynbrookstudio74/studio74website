@@ -20,7 +20,7 @@ export default function Discipline({
         alt={title}
         className="object-cover z-0 opacity-30 object-center"
       />
-      <h1 className="font-rubik z-20 text-4xl lowercase font-bold text-white">
+      <h1 className="font-rubik z-20 text-4xl text-center lowercase font-bold text-white">
         {title}
       </h1>
     </div>
