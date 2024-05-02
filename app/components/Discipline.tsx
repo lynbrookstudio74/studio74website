@@ -12,13 +12,13 @@ export default function Discipline({
 }) {
   return (
     <div
-      className={`relative flex items-center h-40 rounded-xl bg-black overflow-hidden shadow-md justify-center ${className}`}
+      className={`relative flex items-center h-[9vw] rounded-xl bg-black overflow-hidden shadow-md justify-center ${className}`}
     >
       <Image
         src={image}
         fill
         alt={title}
-        className="object-cover z-0 opacity-30 object-center"
+        className="object-cover brightness-105 z-0 opacity-40 object-center"
       />
       <h1 className="font-rubik z-20 text-4xl text-center lowercase font-bold text-white">
         {title}

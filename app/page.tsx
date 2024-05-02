@@ -55,9 +55,9 @@ export default function Home() {
           <Discipline
             title="Acting"
             className="col-span-3"
-            image="/lenaea5.jpg"
+            image="/lenaea2crop.jpg"
           />
-          <Discipline title="Costumes" image="/lenaea1.jpg" />
+          <Discipline title="Costumes" image="/costumes.jpg" />
           <Discipline title="Hair/Makeup" image="/lenaea1.jpg" />
           <Discipline title="Props" image="/lenaea1.jpg" />
           <Discipline title="Marketing" image="/lenaea1.jpg" />
@@ -65,7 +65,7 @@ export default function Home() {
           <Discipline title="Lights" image="/lights.jpg" />
           <Discipline title="Set" image="/set.png" />
           <Discipline title="Stage Management" image="/stageman.jpeg" />
-          <Discipline title="Directing" image="/lenaea1.jpg" />
+          <Discipline title="Directing" image="/directing.jpeg" />
         </div>
       </div>
     </main>

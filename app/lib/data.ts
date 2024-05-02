@@ -26,20 +26,20 @@ export type Head = {
 export type Lead = Head & { bio: string };
 
 export const productionHeads: Head[] = [
-  {
-    name: "Alexis Giaquinta",
-    role: "Head of Stage Management",
-    image: "/team/alex.jpg",
-  },
-  {
-    name: "Angela Pei",
-    role: "Head of Stage Management",
-    image: "/team/angela.jpg",
-  },
+  // {
+  //   name: "Alexis Giaquinta",
+  //   role: "Head of Stage Management",
+  //   image: "/team/alex.jpg",
+  // },
+  // {
+  //   name: "Angela Pei",
+  //   role: "Head of Stage Management",
+  //   image: "/team/angela.jpg",
+  // },
   {
     name: "Charlie Dai",
-    role: "Head of Costumes",
-    image: "/team/charlie.jpg",
+    role: "Head of Stage Management",
+    image: "/team/charlie.png",
   },
   {
     name: "Gen Yates",
@@ -49,7 +49,7 @@ export const productionHeads: Head[] = [
   {
     name: "Ellie York",
     role: "Head of Costumes & Makeup",
-    image: "/team/ellie.jpg",
+    image: "/team/ellie.png",
   },
   {
     name: "Audrey Zhu",
@@ -85,7 +85,7 @@ export const officers: Lead[] = [
   {
     name: "Charlie Dai",
     role: "Vice President of Operations",
-    image: "/team/charlie.jpg",
+    image: "/team/charlie.png",
     bio: "Dolore minim laboris laborum fugiat. Deserunt id enim pariatur qui aliquip cupidatat ex dolor aliqua. Mollit id ad consequat nulla proident commodo amet ad ullamco consequat voluptate elit adipisicing. Pariatur elit labore mollit fugiat irure ea minim exercitation qui.",
   },
   {
@@ -97,7 +97,7 @@ export const officers: Lead[] = [
   {
     name: "Emily Xu",
     role: "Publicist",
-    image: "/team/emily.jpg",
+    image: "/team/emily.png",
     bio: "Dolore minim laboris laborum fugiat. Deserunt id enim pariatur qui aliquip cupidatat ex dolor aliqua. Mollit id ad consequat nulla proident commodo amet ad ullamco consequat voluptate elit adipisicing. Pariatur elit labore mollit fugiat irure ea minim exercitation qui.",
   },
   {
@@ -109,7 +109,7 @@ export const officers: Lead[] = [
   {
     name: "Ellie York",
     role: "Treasurer",
-    image: "/team/ellie.jpg",
+    image: "/team/ellie.png",
     bio: "Dolore minim laboris laborum fugiat. Deserunt id enim pariatur qui aliquip cupidatat ex dolor aliqua. Mollit id ad consequat nulla proident commodo amet ad ullamco consequat voluptate elit adipisicing. Pariatur elit labore mollit fugiat irure ea minim exercitation qui.",
   },
 ];

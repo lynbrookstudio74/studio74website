@@ -9,7 +9,7 @@ export default function Card(props: {
 }) {
   return (
     <div className="rounded-2xl group shadow-md flex flex-col relative justify-start items-center bg-white bg-opacity-70 backdrop-blur-md overflow-hidden">
-      <div className="relative min-h-56 w-full z-0">
+      <div className="relative min-h-[calc(20vw)] w-full z-0">
         <Image
           src={props.image}
           fill
