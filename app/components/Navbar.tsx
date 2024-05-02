@@ -12,11 +12,11 @@ export default function Navbar() {
   return (
     <Popover
       as="nav"
-      className="rounded-none top-0 py-2 left-0 right-0 my-0 bg-red shadow-md px-5 text-black flex justify-between items-center fixed z-50"
+      className="rounded-none top-0 py-2 left-0 right-0 my-0 bg-red shadow px-5 text-black flex justify-between items-center fixed z-50"
     >
       <Link
         href="/"
-        className="font-domine md:py-0 py-1 text-xl md:text-2xl items-center gap-2 inline-flex"
+        className="font-domine md:py-0 py-1 text-xl md:text-2xl font-semibold items-center gap-2 inline-flex"
       >
         <Image src={logo} alt="Lynbrook Drama" className="w-9 aspect-square" />
         Lynbrook Drama
@@ -57,7 +57,7 @@ export default function Navbar() {
             )
           }
         </Popover.Button>
-        <Popover.Panel className="bg-red w-full flex rounded-xl shadow-lg mt-2 px-3 py-2 flex-col absolute left-0">
+        <Popover.Panel className="bg-red w-full flex rounded-xl shadow mt-2 px-3 py-2 flex-col absolute left-0">
           {navLinks.map(
             (link, i) => (
               // link.href ? (
@@ -268,7 +268,7 @@ export default function Navbar() {
             //           leaveFrom="transform opacity-100 scale-100"
             //           leaveTo="transform opacity-0 scale-95"
             //         >
-            //           <Menu.Items className="absolute right-0 mt-3 w-40 origin-top-right rounded-lg bg-navy border-white divide-y divide-lightblue divide-opacity-30 shadow-md focus:outline-none ">
+            //           <Menu.Items className="absolute right-0 mt-5 w-40 origin-top-right rounded-lg bg-navy border-white divide-y divide-lightblue divide-opacity-30 shadow focus:outline-none ">
             //             {link.subLinks?.map((subLink, j) =>
             //               subLink.subLinks ? (
             //                 <Disclosure key={j} as="div">
@@ -366,7 +366,7 @@ export default function Navbar() {
           </LinkButton> */}
           {/* <a
             href="#_"
-            class="relative inline-flex items-center justify-center p-4 px-6 py-3 overflow-hidden font-medium text-indigo-600 transition duration-300 ease-out border-2 border-purple-500 rounded-full shadow-md group"
+            class="relative inline-flex items-center justify-center p-4 px-6 py-3 overflow-hidden font-medium text-indigo-600 transition duration-300 ease-out border-2 border-purple-500 rounded-full shadow group"
           >
             <span class="absolute inset-0 flex items-center justify-center w-full h-full text-white duration-300 -translate-x-full bg-purple-500 group-hover:translate-x-0 ease">
               <svg

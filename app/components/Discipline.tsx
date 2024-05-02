@@ -12,7 +12,7 @@ export default function Discipline({
 }) {
   return (
     <div
-      className={`relative flex items-center h-[9vw] rounded-xl bg-black overflow-hidden shadow-md justify-center ${className}`}
+      className={`relative flex items-center h-[11vw] rounded-xl bg-black overflow-hidden shadow justify-center ${className}`}
     >
       <Image
         src={image}

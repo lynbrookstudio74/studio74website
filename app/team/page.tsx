@@ -1,5 +1,6 @@
 import Card from "../components/Card";
 import HorizontalCard from "../components/HorizontalCard";
+import SpecialWord from "../components/SpecialWord";
 import {
   advisor,
   improvCaptains,
@@ -9,7 +10,7 @@ import {
 
 export default function Team() {
   return (
-    <main className="flex flex-col gap-10">
+    <main className="flex flex-col gap-16">
       <HorizontalCard
         image={advisor.image}
         title={advisor.name}
@@ -18,7 +19,7 @@ export default function Team() {
       />
       <div className="flex flex-col gap-5">
         <h1 className="font-domine text-4xl text-center font-bold">
-          Drama Club Officers
+          Drama Club <SpecialWord period>Officers</SpecialWord>
         </h1>
         <div className="grid grid-cols-3 gap-5">
           {officers.map((officer) => (
@@ -34,7 +35,7 @@ export default function Team() {
       </div>
       <div className="flex flex-col gap-5">
         <h1 className="font-domine text-4xl text-center font-bold">
-          Production Heads
+          Production <SpecialWord period>Heads</SpecialWord>
         </h1>
         <div className="grid grid-cols-4 gap-5">
           {productionHeads.map((head) => (
@@ -50,16 +51,17 @@ export default function Team() {
       </div>
       <div className="flex flex-col gap-5">
         <h1 className="font-domine text-4xl text-center font-bold">
-          Improv Captains
+          Improv <SpecialWord period>Captains</SpecialWord>
         </h1>
         <div className="grid grid-cols-2 gap-5">
           {improvCaptains.map((head) => (
-            <Card
+            <HorizontalCard
               key={head.name}
               image={head.image}
               subtitle={head.role}
               title={head.name}
               content={""}
+              even
             />
           ))}
         </div>

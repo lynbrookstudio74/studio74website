@@ -3,6 +3,7 @@ import { Domine, Inter, Rubik } from "next/font/google";
 import "./globals.css";
 import Navbar from "./components/Navbar";
 import Section from "./components/Section";
+import Footer from "./components/Footer";
 
 const domine = Domine({
   subsets: ["latin"],
@@ -31,6 +32,8 @@ export default function RootLayout({
       <body className={`relative ${domine.variable} ${rubik.variable}`}>
         <Navbar />
         <Section>{children}</Section>
+        <br />
+        <Footer />
       </body>
     </html>
   );

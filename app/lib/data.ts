@@ -70,7 +70,7 @@ export const productionHeads: Head[] = [
 
 export const advisor: Lead = {
   name: "Mr. Larry Wenner",
-  role: "Department Lead and Club Advisor",
+  role: "Department Lead, Club Advisor, Executive Producer & Director",
   image: "/team/wenner.jpg",
   bio: "Dolore minim laboris laborum fugiat. Deserunt id enim pariatur qui aliquip cupidatat ex dolor aliqua. Mollit id ad consequat nulla proident commodo amet ad ullamco consequat voluptate elit adipisicing. Pariatur elit labore mollit fugiat irure ea minim exercitation qui.",
 };
@@ -98,7 +98,8 @@ export const officers: Lead[] = [
     name: "Emily Xu",
     role: "Publicist",
     image: "/team/emily.png",
-    bio: "Dolore minim laboris laborum fugiat. Deserunt id enim pariatur qui aliquip cupidatat ex dolor aliqua. Mollit id ad consequat nulla proident commodo amet ad ullamco consequat voluptate elit adipisicing. Pariatur elit labore mollit fugiat irure ea minim exercitation qui.",
+
+    bio: "Dolore minim laboris laborum fugiat. Deserunt id enim pariatur qui aliquip cupidatat ex dolor aliqua. Mollit id ad consequ at nulla proident commodo amet ad ullamco consequat voluptate elit adipisicing. Pariatur elit labore mollit fugiat irure ea minim exercitation qui.",
   },
   {
     name: "Eric Szewczyk",
@@ -124,5 +125,54 @@ export const improvCaptains: Head[] = [
     name: "Eric Szewczyk",
     role: "Improv Co-Captain",
     image: "/team/eric.jpg",
+  },
+];
+
+export type Production = {
+  name: string;
+  image: string;
+  link: string;
+  subtitle: string;
+};
+
+export const pastProductions: Production[] = [
+  {
+    name: "Ranked: The Musical",
+    subtitle: "Fall 2023",
+    image: "/ranked.png",
+    link: "https://youtu.be/LKQmaYzCqIk",
+  },
+  {
+    name: "Clue: On Stage",
+    image: "/clue.png",
+    subtitle: "Spring 2023",
+    link: "https://youtu.be/LKQmaYzCqIk",
+  },
+  {
+    name: "The Lion in Winter",
+    subtitle: "Fall 2022",
+    image: "/lioninwinter.png",
+    link: "https://youtu.be/Q5i8JM3NRQQ",
+  },
+  {
+    name: "Romeo & Juliet",
+    image: "/rj.png",
+    subtitle: "Spring 2022",
+    link: "https://youtu.be/Q5i8JM3NRQQ",
+  },
+];
+
+export const productionButtons: { title: string; link: string }[] = [
+  {
+    title: "Audition Information",
+    link: "",
+  },
+  {
+    title: "Join Tech",
+    link: "",
+  },
+  {
+    title: "Ticket Sales",
+    link: "https://lynbrook.myschoolcentral.com",
   },
 ];
