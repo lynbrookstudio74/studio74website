@@ -2,10 +2,13 @@ import { ImageResponse } from "next/og";
 import Home from "./page";
 import SpecialWord from "./components/SpecialWord";
 
-export async function GET() {
+export default async function GET() {
   return new ImageResponse(
     (
-      <div className="flex gap-3 flex-col items-center justify-center mt-10">
+      <div
+        style={{ display: "flex" }}
+        className="flex gap-3 flex-col items-center justify-center mt-10"
+      >
         <h1 className="font-domine font-extrabold text-center text-6xl text-black">
           A Place For <SpecialWord period>Everyone</SpecialWord>
         </h1>
