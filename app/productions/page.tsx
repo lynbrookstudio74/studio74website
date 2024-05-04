@@ -4,6 +4,10 @@ import HorizontalCard from "../components/HorizontalCard";
 import { pastProductions, productionButtons } from "../lib/data";
 import Card from "../components/Card";
 
+export const metadata = {
+  title: "Productions",
+};
+
 export default function Shows() {
   return (
     <main className="flex flex-col gap-16">

@@ -6,6 +6,10 @@ import SpecialWord from "./components/SpecialWord";
 import Card from "./components/Card";
 import Discipline from "./components/Discipline";
 
+export const metadata = {
+  title: "Home | Lynbrook Drama",
+};
+
 export default function Home() {
   return (
     <main className="flex flex-col gap-16">
@@ -101,32 +105,32 @@ export default function Home() {
           <Card
             title="Silver Medal in Duo Scenes"
             content=""
-            image="/gold-medal.svg"
-            subtitle="Lenaea Theatre Festival"
+            image=""
+            subtitle="Lenaea Theatre Festival 2024"
           />
           <Card
-            title="Silver Medal in Duo Scenes"
+            title="Bronze Medal in Costume Design"
             content=""
-            image="/gold-medal.svg"
-            subtitle="Lenaea Theatre Festival"
+            image=""
+            subtitle="Lenaea Theatre Festival 2024"
           />
           <Card
-            title="Silver Medal in Duo Scenes"
+            title="Silver Medal in Monologues x2"
             content=""
-            image="/gold-medal.svg"
-            subtitle="Lenaea Theatre Festival"
+            image=""
+            subtitle="Lenaea Theatre Festival 2023"
           />
           <Card
-            title="Silver Medal in Duo Scenes"
+            title="Silver Medal in Costume Design"
             content=""
-            image="/gold-medal.svg"
-            subtitle="Lenaea Theatre Festival"
+            image=""
+            subtitle="Lenaea Theatre Festival 2023"
           />
           <Card
-            title="Silver Medal in Duo Scenes"
+            title="Gold Medal in One-Act Plays"
             content=""
-            image="/gold-medal.svg"
-            subtitle="Lenaea Theatre Festival"
+            image=""
+            subtitle="Lenaea Theatre Festival 2015"
           />
         </div>
       </div>

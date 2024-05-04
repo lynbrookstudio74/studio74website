@@ -26,16 +26,6 @@ export type Head = {
 export type Lead = Head & { bio: string };
 
 export const productionHeads: Head[] = [
-  // {
-  //   name: "Alexis Giaquinta",
-  //   role: "Head of Stage Management",
-  //   image: "/team/alex.jpg",
-  // },
-  // {
-  //   name: "Angela Pei",
-  //   role: "Head of Stage Management",
-  //   image: "/team/angela.jpg",
-  // },
   {
     name: "Charlie Dai",
     role: "Head of Stage Management",
@@ -57,9 +47,9 @@ export const productionHeads: Head[] = [
     image: "/team/audrey.jpeg",
   },
   {
-    name: "Suhaib Shafquat",
+    name: "Kelly Wu",
     role: "Head of Lights",
-    image: "/team/suhaib.jpg",
+    image: "",
   },
   {
     name: "Snehil Kakani",

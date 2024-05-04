@@ -8,6 +8,10 @@ import {
   productionHeads,
 } from "../lib/data";
 
+export const metadata = {
+  title: "Team",
+};
+
 export default function Team() {
   return (
     <main className="flex flex-col gap-16">
