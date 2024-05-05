@@ -105,31 +105,31 @@ export default function Home() {
           <Card
             title="Silver Medal in Duo Scenes"
             content=""
-            image=""
+            image="/placeholder.webp"
             subtitle="Lenaea Theatre Festival 2024"
           />
           <Card
             title="Bronze Medal in Costume Design"
             content=""
-            image=""
+            image="/placeholder.webp"
             subtitle="Lenaea Theatre Festival 2024"
           />
           <Card
             title="Silver Medal in Monologues x2"
             content=""
-            image=""
+            image="/placeholder.webp"
             subtitle="Lenaea Theatre Festival 2023"
           />
           <Card
             title="Silver Medal in Costume Design"
             content=""
-            image=""
+            image="/placeholder.webp"
             subtitle="Lenaea Theatre Festival 2023"
           />
           <Card
             title="Gold Medal in One-Act Plays"
             content=""
-            image=""
+            image="/placeholder.webp"
             subtitle="Lenaea Theatre Festival 2015"
           />
         </div>
