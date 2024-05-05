@@ -57,7 +57,7 @@ export default function Navbar() {
             )
           }
         </Popover.Button>
-        <Popover.Panel className="bg-red w-full flex rounded-xl shadow mt-2 px-3 py-2 flex-col absolute left-0">
+        <Popover.Panel className="bg-red w-full flex shadow mt-2 px-5 pt-2 pb-3 flex-col absolute left-0">
           {navLinks.map(
             (link, i) => (
               // link.href ? (
@@ -65,7 +65,7 @@ export default function Navbar() {
                 as={Link}
                 href={link.href}
                 key={i}
-                className={`font-rubik text-xl flex flex-col group transition duration-300 ${
+                className={`font-rubik text-lg md:text-xl flex flex-col group transition duration-300 ${
                   router === link.href ? "text-yellow" : "text-black"
                 }`}
               >
@@ -200,7 +200,7 @@ export default function Navbar() {
               <Link
                 href={link.href}
                 key={i}
-                className={`font-rubik text-xl flex flex-col group transition duration-300 ${
+                className={`font-rubik text-lg md:text-xl flex flex-col group transition duration-300 ${
                   router === link.href ? "text-yellow" : "text-black"
                 }`}
               >

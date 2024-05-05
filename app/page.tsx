@@ -14,10 +14,10 @@ export default function Home() {
   return (
     <main className="flex flex-col gap-16">
       <div className="flex gap-3 flex-col items-center justify-center mt-10">
-        <h1 className="font-domine font-extrabold text-center text-6xl text-black">
+        <h1 className="font-domine font-extrabold text-center text-5xl md:text-6xl text-black">
           A Place For <SpecialWord period>Everyone</SpecialWord>
         </h1>
-        <p className="font-rubik max-w-[100ch] text-lg text-center">
+        <p className="font-rubik max-w-[100ch] text-base md:text-lg text-center">
           Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsa nisi
           earum voluptatibus accusantium excepturi fuga dicta nihil, amet fugit
           corrupti rerum, voluptatum suscipit, quod assumenda est repellendus et
@@ -26,11 +26,11 @@ export default function Home() {
           nihil, amet fugit corrupti rerum, voluptatum suscipit, quod assumenda
           est repellendus et quibusdam. Itaque!
         </p>
-        <h2 className="font-rubik text-4xl text-black">
+        <h2 className="font-rubik text-3xl md:text-4xl text-center text-black">
           Wednesday Lunch @ Room 74
         </h2>
       </div>
-      <div className="grid gap-5 grid-cols-3">
+      <div className="grid gap-5 grid-cols-1 md:grid-cols-3">
         <Card
           title="Productions"
           content="Pariatur proident excepteur nisi labore. Esse fugiat sit mollit ut id cillum nostrud. Eiusmod fugiat ea cillum ad ipsum ullamco officia irure in mollit incididunt cupidatat reprehenderit officia. Sunt dolor incididunt commodo dolor ut sit. Cupidatat fugiat occaecat elit voluptate fugiat eu duis. Eu mollit adipisicing magna in."
@@ -48,16 +48,16 @@ export default function Home() {
         />
       </div>
       <div>
-        <h1 className="font-domine text-center text-black font-extrabold text-5xl">
+        <h1 className="font-domine text-center text-black font-extrabold text-4xl md:text-5xl">
           Merging Together Different Disciplines of Theatre to
           {/* <span className="flex"> */} Create Something...{" "}
           <SpecialWord period>Spectacular</SpecialWord>
           {/* </span> */}
         </h1>
-        <div className="grid grid-cols-3 gap-3 mt-5">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-3 mt-5">
           <Discipline
             title="Acting"
-            className="col-span-3 h-[15vw]"
+            className="md:col-span-3 h-[25vw] md:h-[15vw]"
             image="/lenaea5.jpg"
           />
           <Discipline title="Costumes" image="/costumes.jpg" />
@@ -72,12 +72,12 @@ export default function Home() {
         </div>
       </div>
       <div>
-        <h1 className="font-domine text-center text-black font-extrabold text-5xl gap-[0.3ch]">
+        <h1 className="font-domine text-center text-black font-extrabold text-4xl md:text-5xl gap-[0.3ch]">
           Training the Next Generation of{" "}
           <SpecialWord period>Thespians</SpecialWord>
           {/* </span> */}
         </h1>
-        <div className="grid gap-5 mt-5 grid-cols-3">
+        <div className="grid gap-5 mt-5 grid-cols-1 md:grid-cols-3">
           <Card
             title="Beginning Drama"
             content="Pariatur proident excepteur nisi labore. Esse fugiat sit mollit ut id cillum nostrud. Eiusmod fugiat ea cillum ad ipsum ullamco officia irure in mollit incididunt cupidatat reprehenderit officia. Sunt dolor incididunt commodo dolor ut sit. Cupidatat fugiat occaecat elit voluptate fugiat eu duis. Eu mollit adipisicing magna in."
@@ -96,12 +96,12 @@ export default function Home() {
         </div>
       </div>
       <div>
-        <h1 className="font-domine text-center text-black font-extrabold text-5xl gap-[0.3ch]">
+        <h1 className="font-domine text-center text-black font-extrabold text-4xl md:text-5xl">
           {/* Training the Next Generation of{" "} */}
-          <SpecialWord period>Recognition and Awards</SpecialWord>
+          Recognition and <SpecialWord period>Awards</SpecialWord>
           {/* </span> */}
         </h1>
-        <div className="grid gap-5 mt-5 grid-cols-5">
+        <div className="grid gap-5 mt-5 grid-cols-1 md:grid-cols-5">
           <Card
             title="Silver Medal in Duo Scenes"
             content=""

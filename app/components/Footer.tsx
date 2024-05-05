@@ -5,13 +5,13 @@ export default function Footer() {
   return (
     <footer className="py-4 w-full relative flex justify-between items-center bg-red gap-2 px-6 text-black z-50">
       <div>
-        <h1 className="font-domine font-semibold text-2xl">
+        <h1 className="font-domine font-semibold text-xl md:text-2xl">
           LHS Studio 74 Drama
         </h1>
-        <h2 className="font-rubik font text-lg">
+        <h2 className="font-rubik text-base md:text-lg">
           International Thespian Society Troupe #4676
         </h2>
-        <h3 className="text-base">
+        <h3 className="text-sm md:text-base">
           Copyright © 2024. All Rights Reserved. Website developed by{" "}
           <a
             className="underline underline-offset-2 hover:text-yellow transition-colors duration-300"

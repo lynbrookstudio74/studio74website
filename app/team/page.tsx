@@ -22,10 +22,10 @@ export default function Team() {
         content={advisor.bio}
       />
       <div className="flex flex-col gap-5">
-        <h1 className="font-domine text-4xl text-center font-bold">
+        <h1 className="font-domine text-3xl md:text-4xl text-center font-bold">
           Drama Club <SpecialWord period>Officers</SpecialWord>
         </h1>
-        <div className="grid grid-cols-3 gap-5">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
           {officers.map((officer) => (
             <Card
               key={officer.name}
@@ -38,10 +38,10 @@ export default function Team() {
         </div>
       </div>
       <div className="flex flex-col gap-5">
-        <h1 className="font-domine text-4xl text-center font-bold">
+        <h1 className="font-domine text-3xl md:text-4xl text-center font-bold">
           Production <SpecialWord period>Heads</SpecialWord>
         </h1>
-        <div className="grid grid-cols-4 gap-5">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5">
           {productionHeads.map((head) => (
             <Card
               key={head.name}
@@ -57,7 +57,7 @@ export default function Team() {
         <h1 className="font-domine text-4xl text-center font-bold">
           Improv <SpecialWord period>Captains</SpecialWord>
         </h1>
-        <div className="grid grid-cols-2 gap-5">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-5">
           {improvCaptains.map((head) => (
             <HorizontalCard
               key={head.name}

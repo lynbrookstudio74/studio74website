@@ -18,17 +18,17 @@ export default function Shows() {
             height={1080}
             src="/productions.jpg"
             alt="A picture of the cast of the Laramie Project after the last show z-0"
-            className="object-cover object-center h-72 z-0 w-screen opacity-20 blur-sm"
+            className="object-cover object-center h-72 z-0 w-screen opacity-20"
             priority
           />
         </div>
-        <h1 className="font-domine relative font-extrabold text-center z-20 text-6xl text-white">
+        <h1 className="font-domine relative font-extrabold text-center z-20 text-5xl md:text-6xl text-white">
           Some Corny Production <SpecialWord period>Statement</SpecialWord>
         </h1>
       </div>
       <div>
         <div className="group grid grid-cols-8 gap-5 relative justify-start items-stretch overflow-hidden">
-          <div className="relative w-full z-0 col-span-3">
+          <div className="relative w-full md:h-full min-h-[100vw] z-0 col-span-8 md:col-span-3">
             <Image
               src="/laramie.png"
               fill
@@ -36,14 +36,16 @@ export default function Shows() {
               className="object-cover object-center"
             />
           </div>
-          <div className={`px-4 py-10 flex flex-col gap-1 col-span-5`}>
-            <h2 className="font-rubik text-red font-semibold text-left text-xl">
+          <div
+            className={`px-4 py-2 md:py-10 flex flex-col gap-1 col-span-8 md:col-span-5`}
+          >
+            <h2 className="font-rubik text-red font-semibold text-left text-lg md:text-xl">
               CURRENT SHOW
             </h2>
-            <h1 className="font-domine text-4xl text-black font-bold text-left">
+            <h1 className="font-domine text-3xl md:text-4xl text-black font-bold text-left">
               The Laramie Project
             </h1>
-            <p className="font-rubik text-lg text-black text-left">
+            <p className="font-rubik text-base md:text-lg text-black text-left">
               Adipisicing esse amet ipsum pariatur exercitation. Dolore aliqua
               esse consequat cillum exercitation exercitation dolor consequat
               exercitation. Quis aute deserunt nostrud Lorem aute duis esse
@@ -56,11 +58,11 @@ export default function Shows() {
               do. Voluptate nostrud quis ipsum mollit sint nulla voluptate duis.
               Magna irure officia velit qui est eiusmod.
             </p>
-            <div className="flex gap-3 mt-2">
+            <div className="flex flex-col md:flex-row gap-3 mt-2">
               {productionButtons.map((button) => (
                 <a
                   key={button.title}
-                  className="font-rubik text-lg bg-red bg-opacity-80 text-black font-medium inline-flex items-center gap-1 py-1 px-3 rounded-lg"
+                  className="font-rubik text-base md:text-lg bg-red bg-opacity-80 text-black font-medium inline-flex items-center justify-center gap-1 py-1 px-3 rounded-lg"
                   href={button.link}
                   target="_blank"
                   rel="noopener noreferrer"
@@ -87,10 +89,10 @@ export default function Shows() {
         </div>
       </div>
       <div className="flex flex-col gap-5">
-        <h1 className="font-domine text-4xl text-center font-bold">
+        <h1 className="font-domine text-3xl md:text-4xl text-center font-bold">
           Past <SpecialWord period>Productions</SpecialWord>
         </h1>
-        <div className="grid grid-cols-4 gap-5">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5">
           {pastProductions.map((production) => (
             <Card
               key={production.name}

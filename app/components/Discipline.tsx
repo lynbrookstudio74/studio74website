@@ -12,7 +12,7 @@ export default function Discipline({
 }) {
   return (
     <div
-      className={`relative flex items-center h-[11vw] rounded-xl bg-black overflow-hidden shadow justify-center ${className}`}
+      className={`relative flex items-center h-[20vw] md:h-[11vw] rounded-xl bg-black overflow-hidden shadow justify-center ${className}`}
     >
       <Image
         src={image}
@@ -20,7 +20,7 @@ export default function Discipline({
         alt={title}
         className="object-cover brightness-105 z-0 opacity-40 object-center"
       />
-      <h1 className="font-rubik z-20 text-4xl text-center lowercase font-bold text-white">
+      <h1 className="font-rubik z-20 text-3xl md:text-4xl text-center lowercase font-bold text-white">
         {title}
       </h1>
     </div>
