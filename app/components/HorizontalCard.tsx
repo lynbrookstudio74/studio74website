@@ -11,7 +11,7 @@ export default function HorizontalCard(props: {
 }) {
   return (
     <div className="rounded-2xl group shadow flex flex-col md:flex-row relative justify-start items-stretch bg-white bg-opacity-70 backdrop-blur-md overflow-hidden border border-black border-opacity-10">
-      <div className="relative w-full md:h-full min-h-[60vw] z-0">
+      <div className="relative w-full min-h-[60vw] md:min-h-0 z-0">
         <Image
           src={props.image}
           fill
@@ -20,7 +20,7 @@ export default function HorizontalCard(props: {
         />
       </div>
       <div
-        className={`px-4 py-5 md:py-10 flex flex-col gap-1 ${
+        className={`px-4 py-5 md:py-10 flex justify-center flex-col gap-1 ${
           props.even ? "w-full py-20" : ""
         }`}
       >
@@ -32,9 +32,11 @@ export default function HorizontalCard(props: {
             {props.subtitle}
           </h2>
         )}
-        <p className="font-rubik text-base md:text-lg text-black text-left">
-          {props.content}
-        </p>
+        {props.content && (
+          <p className="font-rubik text-base md:text-lg text-black text-left">
+            {props.content}
+          </p>
+        )}
       </div>
     </div>
   );

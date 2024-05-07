@@ -38,6 +38,33 @@ export const text = {
       "Pariatur proident excepteur nisi labore. Esse fugiat sit mollit ut id cillum nostrud. Eiusmod fugiat ea cillum ad ipsum ullamco officia irure in mollit incididunt cupidatat reprehenderit officia. Sunt dolor incididunt commodo dolor ut sit. Cupidatat fugiat occaecat elit voluptate fugiat eu duis. Eu mollit adipisicing magna in.",
     honorsImage: "/advh.jpg",
     awardsTitle: "Recognized for Excellence in /Theatre/",
+    awards: [
+      {
+        title: "Bronze Medal in Costume Design",
+        subtitle: "Lenaea Theatre Festival 2024",
+        image: "/placeholder.webp",
+      },
+      {
+        title: "Bronze Medal in Costume Design",
+        subtitle: "Lenaea Theatre Festival 2024",
+        image: "/placeholder.webp",
+      },
+      {
+        title: "Bronze Medal in Costume Design",
+        subtitle: "Lenaea Theatre Festival 2024",
+        image: "/placeholder.webp",
+      },
+      {
+        title: "Bronze Medal in Costume Design",
+        subtitle: "Lenaea Theatre Festival 2024",
+        image: "/placeholder.webp",
+      },
+      {
+        title: "Bronze Medal in Costume Design",
+        subtitle: "Lenaea Theatre Festival 2024",
+        image: "/placeholder.webp",
+      },
+    ],
   },
 };
 

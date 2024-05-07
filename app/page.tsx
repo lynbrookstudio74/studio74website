@@ -120,36 +120,9 @@ export default function Home() {
           )}
         </h1>
         <div className="grid gap-5 mt-5 grid-cols-1 md:grid-cols-5">
-          <Card
-            title="Silver Medal in Duo Scenes"
-            content=""
-            image="/placeholder.webp"
-            subtitle="Lenaea Theatre Festival 2024"
-          />
-          <Card
-            title="Bronze Medal in Costume Design"
-            content=""
-            image="/placeholder.webp"
-            subtitle="Lenaea Theatre Festival 2024"
-          />
-          <Card
-            title="Silver Medal in Monologues x2"
-            content=""
-            image="/placeholder.webp"
-            subtitle="Lenaea Theatre Festival 2023"
-          />
-          <Card
-            title="Silver Medal in Costume Design"
-            content=""
-            image="/placeholder.webp"
-            subtitle="Lenaea Theatre Festival 2023"
-          />
-          <Card
-            title="Gold Medal in One-Act Plays"
-            content=""
-            image="/placeholder.webp"
-            subtitle="Lenaea Theatre Festival 2015"
-          />
+          {text.home.awards.map((award) => (
+            <Card {...award} content="" key={award.title} />
+          ))}
         </div>
       </div>
     </main>

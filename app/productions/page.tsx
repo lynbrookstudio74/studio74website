@@ -28,7 +28,7 @@ export default function Shows() {
       </div>
       <div>
         <div className="group grid grid-cols-8 gap-5 relative justify-start items-stretch overflow-hidden">
-          <div className="relative w-full md:h-full min-h-[100vw] z-0 col-span-8 md:col-span-3">
+          <div className="relative w-full md:h-full min-h-[100vw] md:min-h-0 z-0 col-span-8 md:col-span-3">
             <Image
               src="/laramie.png"
               fill
