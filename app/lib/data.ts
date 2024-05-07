@@ -1,3 +1,46 @@
+export const text = {
+  home: {
+    title: "A Place for /Everyone/",
+    topDesc:
+      "Aliqua laboris non excepteur adipisicing ex enim cillum. Cupidatat aliqua enim velit ut reprehenderit ex aute nostrud anim proident mollit tempor ullamco. Consectetur cupidatat nisi excepteur duis laborum est laborum. Do culpa pariatur velit labore reprehenderit. Irure elit cillum in magna do quis ut qui cillum cillum duis.",
+    clubMtg: "Wednesday Lunch @ Room 74",
+    prodDesc:
+      "Pariatur proident excepteur nisi labore. Esse fugiat sit mollit ut id cillum nostrud. Eiusmod fugiat ea cillum ad ipsum ullamco officia irure in mollit incididunt cupidatat reprehenderit officia. Sunt dolor incididunt commodo dolor ut sit. Cupidatat fugiat occaecat elit voluptate fugiat eu duis. Eu mollit adipisicing magna in.",
+    prodImage: "/prod.png",
+    improvDesc:
+      "Pariatur proident excepteur nisi labore. Esse fugiat sit mollit ut id cillum nostrud. Eiusmod fugiat ea cillum ad ipsum ullamco officia irure in mollit incididunt cupidatat reprehenderit officia. Sunt dolor incididunt commodo dolor ut sit. Cupidatat fugiat occaecat elit voluptate fugiat eu duis. Eu mollit adipisicing magna in.",
+    improvImage: "/improv.jpg",
+    festivalDesc:
+      "Pariatur proident excepteur nisi labore. Esse fugiat sit mollit ut id cillum nostrud. Eiusmod fugiat ea cillum ad ipsum ullamco officia irure in mollit incididunt cupidatat reprehenderit officia. Sunt dolor incididunt commodo dolor ut sit. Cupidatat fugiat occaecat elit voluptate fugiat eu duis. Eu mollit adipisicing magna in.",
+    festivalImage: "/lenaea4.jpg",
+    disciplineTitle:
+      "Merging Together Different Disciplines of Theatre to Create Something... /Spectacular/",
+    disciplines: {
+      acting: "/lenaea5.jpg",
+      costumes: "/costumes.jpg",
+      makeup: "/makeup.jpeg",
+      props: "/lenaea1.jpg",
+      marketing: "/marketing.jpg",
+      sound: "/sound.jpg",
+      lights: "/lights.jpg",
+      set: "/set.png",
+      stage: "/stageman.jpeg",
+      directing: "/directing.jpeg",
+    },
+    classTitle: "Training the Next Generation of /Thespians/",
+    beginningDesc:
+      "Pariatur proident excepteur nisi labore. Esse fugiat sit mollit ut id cillum nostrud. Eiusmod fugiat ea cillum ad ipsum ullamco officia irure in mollit incididunt cupidatat reprehenderit officia. Sunt dolor incididunt commodo dolor ut sit. Cupidatat fugiat occaecat elit voluptate fugiat eu duis. Eu mollit adipisicing magna in.",
+    beginningImage: "/prod.png",
+    advancedDesc:
+      "Pariatur proident excepteur nisi labore. Esse fugiat sit mollit ut id cillum nostrud. Eiusmod fugiat ea cillum ad ipsum ullamco officia irure in mollit incididunt cupidatat reprehenderit officia. Sunt dolor incididunt commodo dolor ut sit. Cupidatat fugiat occaecat elit voluptate fugiat eu duis. Eu mollit adipisicing magna in.",
+    advancedImage: "/advdrama.jpeg",
+    honorsDesc:
+      "Pariatur proident excepteur nisi labore. Esse fugiat sit mollit ut id cillum nostrud. Eiusmod fugiat ea cillum ad ipsum ullamco officia irure in mollit incididunt cupidatat reprehenderit officia. Sunt dolor incididunt commodo dolor ut sit. Cupidatat fugiat occaecat elit voluptate fugiat eu duis. Eu mollit adipisicing magna in.",
+    honorsImage: "/advh.jpg",
+    awardsTitle: "Recognized for Excellence in /Theatre/",
+  },
+};
+
 export type NavLink = {
   href: string;
   label: string;

@@ -5,6 +5,7 @@ import { useEffect, useRef } from "react";
 import SpecialWord from "./components/SpecialWord";
 import Card from "./components/Card";
 import Discipline from "./components/Discipline";
+import { text } from "./lib/data";
 
 export const metadata = {
   title: "Home | Lynbrook Drama",
@@ -15,91 +16,108 @@ export default function Home() {
     <main className="flex flex-col gap-16">
       <div className="flex gap-3 flex-col items-center justify-center mt-10">
         <h1 className="font-domine font-extrabold text-center text-5xl md:text-6xl text-black">
-          A Place For <SpecialWord period>Everyone</SpecialWord>
+          {text.home.title.split("/")[0]}
+          {text.home.title.split("/").length > 1 && (
+            <SpecialWord period>{text.home.title.split("/")[1]}</SpecialWord>
+          )}
         </h1>
         <p className="font-rubik max-w-[100ch] text-base md:text-lg text-center">
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsa nisi
-          earum voluptatibus accusantium excepturi fuga dicta nihil, amet fugit
-          corrupti rerum, voluptatum suscipit, quod assumenda est repellendus et
-          quibusdam. Itaque! Lorem ipsum dolor sit amet consectetur, adipisicing
-          elit. Ipsa nisi earum voluptatibus accusantium excepturi fuga dicta
-          nihil, amet fugit corrupti rerum, voluptatum suscipit, quod assumenda
-          est repellendus et quibusdam. Itaque!
+          {text.home.topDesc}
         </p>
         <h2 className="font-rubik text-3xl md:text-4xl text-center text-black">
-          Wednesday Lunch @ Room 74
+          {text.home.clubMtg}
         </h2>
       </div>
       <div className="grid gap-5 grid-cols-1 md:grid-cols-3">
         <Card
           title="Productions"
-          content="Pariatur proident excepteur nisi labore. Esse fugiat sit mollit ut id cillum nostrud. Eiusmod fugiat ea cillum ad ipsum ullamco officia irure in mollit incididunt cupidatat reprehenderit officia. Sunt dolor incididunt commodo dolor ut sit. Cupidatat fugiat occaecat elit voluptate fugiat eu duis. Eu mollit adipisicing magna in."
-          image="/prod.png"
+          content={text.home.prodDesc}
+          image={text.home.prodImage}
         />
         <Card
           title="Improv"
-          content="Pariatur proident excepteur nisi labore. Esse fugiat sit mollit ut id cillum nostrud. Eiusmod fugiat ea cillum ad ipsum ullamco officia irure in mollit incididunt cupidatat reprehenderit officia. Sunt dolor incididunt commodo dolor ut sit. Cupidatat fugiat occaecat elit voluptate fugiat eu duis. Eu mollit adipisicing magna in."
-          image="/improv.jpg"
+          content={text.home.improvDesc}
+          image={text.home.improvImage}
         />
         <Card
           title="Festivals"
-          content="Pariatur proident excepteur nisi labore. Esse fugiat sit mollit ut id cillum nostrud. Eiusmod fugiat ea cillum ad ipsum ullamco officia irure in mollit incididunt cupidatat reprehenderit officia. Sunt dolor incididunt commodo dolor ut sit. Cupidatat fugiat occaecat elit voluptate fugiat eu duis. Eu mollit adipisicing magna in."
-          image="/lenaea4.jpg"
+          content={text.home.festivalDesc}
+          image={text.home.festivalImage}
         />
       </div>
       <div>
         <h1 className="font-domine text-center text-black font-extrabold text-4xl md:text-5xl">
-          Merging Together Different Disciplines of Theatre to
-          {/* <span className="flex"> */} Create Something...{" "}
-          <SpecialWord period>Spectacular</SpecialWord>
-          {/* </span> */}
+          {text.home.disciplineTitle.split("/")[0]}
+          {text.home.disciplineTitle.split("/").length > 1 && (
+            <SpecialWord period>
+              {text.home.disciplineTitle.split("/")[1]}
+            </SpecialWord>
+          )}
         </h1>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-3 mt-5">
           <Discipline
             title="Acting"
             className="md:col-span-3 h-[25vw] md:h-[15vw]"
-            image="/lenaea5.jpg"
+            image={text.home.disciplines.acting}
           />
-          <Discipline title="Costumes" image="/costumes.jpg" />
-          <Discipline title="Hair/Makeup" image="/makeup.jpeg" />
-          <Discipline title="Props" image="/lenaea1.jpg" />
-          <Discipline title="Marketing" image="/marketing.jpg" />
-          <Discipline title="Sound" image="/sound.jpg" />
-          <Discipline title="Lights" image="/lights.jpg" />
-          <Discipline title="Set" image="/set.png" />
-          <Discipline title="Stage Management" image="/stageman.jpeg" />
-          <Discipline title="Directing" image="/directing.jpeg" />
+          <Discipline title="Costumes" image={text.home.disciplines.costumes} />
+          <Discipline
+            title="Hair/Makeup"
+            image={text.home.disciplines.makeup}
+          />
+          <Discipline title="Props" image={text.home.disciplines.props} />
+          <Discipline
+            title="Marketing"
+            image={text.home.disciplines.marketing}
+          />
+          <Discipline title="Sound" image={text.home.disciplines.sound} />
+          <Discipline title="Lights" image={text.home.disciplines.lights} />
+          <Discipline title="Set" image={text.home.disciplines.set} />
+          <Discipline
+            title="Stage Management"
+            image={text.home.disciplines.stage}
+          />
+          <Discipline
+            title="Directing"
+            image={text.home.disciplines.directing}
+          />
         </div>
       </div>
       <div>
         <h1 className="font-domine text-center text-black font-extrabold text-4xl md:text-5xl gap-[0.3ch]">
-          Training the Next Generation of{" "}
-          <SpecialWord period>Thespians</SpecialWord>
-          {/* </span> */}
+          {text.home.classTitle.split("/")[0]}
+          {text.home.classTitle.split("/").length > 1 && (
+            <SpecialWord period>
+              {text.home.classTitle.split("/")[1]}
+            </SpecialWord>
+          )}
         </h1>
         <div className="grid gap-5 mt-5 grid-cols-1 md:grid-cols-3">
           <Card
             title="Beginning Drama"
-            content="Pariatur proident excepteur nisi labore. Esse fugiat sit mollit ut id cillum nostrud. Eiusmod fugiat ea cillum ad ipsum ullamco officia irure in mollit incididunt cupidatat reprehenderit officia. Sunt dolor incididunt commodo dolor ut sit. Cupidatat fugiat occaecat elit voluptate fugiat eu duis. Eu mollit adipisicing magna in."
-            image="/prod.png"
+            content={text.home.beginningDesc}
+            image={text.home.beginningImage}
           />
           <Card
             title="Advanced Drama"
-            content="Pariatur proident excepteur nisi labore. Esse fugiat sit mollit ut id cillum nostrud. Eiusmod fugiat ea cillum ad ipsum ullamco officia irure in mollit incididunt cupidatat reprehenderit officia. Sunt dolor incididunt commodo dolor ut sit. Cupidatat fugiat occaecat elit voluptate fugiat eu duis. Eu mollit adipisicing magna in."
-            image="/advdrama.jpeg"
+            content={text.home.advancedDesc}
+            image={text.home.advancedImage}
           />
           <Card
             title="Advanced Drama Honors"
-            content="Pariatur proident excepteur nisi labore. Esse fugiat sit mollit ut id cillum nostrud. Eiusmod fugiat ea cillum ad ipsum ullamco officia irure in mollit incididunt cupidatat reprehenderit officia. Sunt dolor incididunt commodo dolor ut sit. Cupidatat fugiat occaecat elit voluptate fugiat eu duis. Eu mollit adipisicing magna in."
-            image="/advh.jpg"
+            content={text.home.honorsDesc}
+            image={text.home.honorsImage}
           />
         </div>
       </div>
       <div>
         <h1 className="font-domine text-center text-black font-extrabold text-4xl md:text-5xl">
-          {/* Training the Next Generation of{" "} */}
-          Recognition and <SpecialWord period>Awards</SpecialWord>
-          {/* </span> */}
+          {text.home.awardsTitle.split("/")[0]}
+          {text.home.awardsTitle.split("/").length > 1 && (
+            <SpecialWord period>
+              {text.home.awardsTitle.split("/")[1]}
+            </SpecialWord>
+          )}
         </h1>
         <div className="grid gap-5 mt-5 grid-cols-1 md:grid-cols-5">
           <Card
