@@ -140,19 +140,19 @@ export const officers: Lead[] = [
     name: "Snehil Kakani",
     role: "President",
     image: "/team/snehil.webp",
-    bio: "Dolore minim laboris laborum fugiat. Deserunt id enim pariatur qui aliquip cupidatat ex dolor aliqua. Mollit id ad consequat nulla proident commodo amet ad ullamco consequat voluptate elit adipisicing. Pariatur elit labore mollit fugiat irure ea minim exercitation qui.",
+    bio: "Hey, I'm Snehil! In addition to my passion for acting, I love technology, and produce music, play video games, and lead the sound team in productions!",
   },
   {
     name: "Charlie Dai",
     role: "Vice President of Operations",
     image: "/team/charlie.png",
-    bio: "Dolore minim laboris laborum fugiat. Deserunt id enim pariatur qui aliquip cupidatat ex dolor aliqua. Mollit id ad consequat nulla proident commodo amet ad ullamco consequat voluptate elit adipisicing. Pariatur elit labore mollit fugiat irure ea minim exercitation qui.",
+    bio: "Hi!! My name is Charlie! I am apart of the stage management and costume teams for drama productions! Besides that, I love poetry, video games, and photography!",
   },
   {
     name: "Saakshi Athreya",
     role: "Vice President of Events",
     image: "/team/saakshi.jpg",
-    bio: "Dolore minim laboris laborum fugiat. Deserunt id enim pariatur qui aliquip cupidatat ex dolor aliqua. Mollit id ad consequat nulla proident commodo amet ad ullamco consequat voluptate elit adipisicing. Pariatur elit labore mollit fugiat irure ea minim exercitation qui.",
+    bio: "Hi, I'm Saakshi! Other than being part of the crew, I love to sing and make music! I am also so excited to be an officer this year!",
   },
   {
     name: "Emily Xu",
@@ -165,13 +165,13 @@ export const officers: Lead[] = [
     name: "Eric Szewczyk",
     role: "Secretary",
     image: "/team/eric.jpg",
-    bio: "Dolore minim laboris laborum fugiat. Deserunt id enim pariatur qui aliquip cupidatat ex dolor aliqua. Mollit id ad consequat nulla proident commodo amet ad ullamco consequat voluptate elit adipisicing. Pariatur elit labore mollit fugiat irure ea minim exercitation qui.",
+    bio: "Hello, I'm Eric. I love dancing, singing, acting, and fashion design! I also enjoy learning, and shockingly enough, talking to people. I dare you to try and pronounce my last name >:)",
   },
   {
     name: "Ellie York",
     role: "Treasurer",
     image: "/team/ellie.png",
-    bio: "Dolore minim laboris laborum fugiat. Deserunt id enim pariatur qui aliquip cupidatat ex dolor aliqua. Mollit id ad consequat nulla proident commodo amet ad ullamco consequat voluptate elit adipisicing. Pariatur elit labore mollit fugiat irure ea minim exercitation qui.",
+    bio: "Hi, I'm Ellie! Beyond tech, I enjoy thrifting, Pompompurin, Olivia Rodrigo, sleeping, nail art, makeup, and glitter!",
   },
 ];
 
