@@ -20,7 +20,7 @@ export default function HorizontalCard(props: {
         />
       </div>
       <div
-        className={`px-4 py-5 md:py-10 flex justify-center flex-col gap-1 ${
+        className={`px-4 py-5 md:py-[5vw] flex justify-center flex-col gap-1 ${
           props.even ? "w-full py-20" : ""
         }`}
       >

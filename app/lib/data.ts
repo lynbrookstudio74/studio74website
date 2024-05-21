@@ -2,16 +2,16 @@ export const text = {
   home: {
     title: "A Place for /Everyone/",
     topDesc:
-      "Aliqua laboris non excepteur adipisicing ex enim cillum. Cupidatat aliqua enim velit ut reprehenderit ex aute nostrud anim proident mollit tempor ullamco. Consectetur cupidatat nisi excepteur duis laborum est laborum. Do culpa pariatur velit labore reprehenderit. Irure elit cillum in magna do quis ut qui cillum cillum duis.",
+      "Studio 74 is Lynbrook's drama department. We are a group of students who love theatre and are dedicated to creating a welcoming and inclusive environment for all. We produce shows, compete in festivals, and host events. We are a drama family, and we would love for you to join us!",
     clubMtg: "Wednesday Lunch @ Room 74",
     prodDesc:
-      "Pariatur proident excepteur nisi labore. Esse fugiat sit mollit ut id cillum nostrud. Eiusmod fugiat ea cillum ad ipsum ullamco officia irure in mollit incididunt cupidatat reprehenderit officia. Sunt dolor incididunt commodo dolor ut sit. Cupidatat fugiat occaecat elit voluptate fugiat eu duis. Eu mollit adipisicing magna in.",
+      "Studio 74 puts on one school-wide production every semester, ranging from musicals to plays, directed and produced by the drama advisor and department lead, Mr. Wenner. We have a variety of roles available, from acting to tech to marketing. All levels of experience are welcome!",
     prodImage: "/prod.png",
     improvDesc:
-      "Pariatur proident excepteur nisi labore. Esse fugiat sit mollit ut id cillum nostrud. Eiusmod fugiat ea cillum ad ipsum ullamco officia irure in mollit incididunt cupidatat reprehenderit officia. Sunt dolor incididunt commodo dolor ut sit. Cupidatat fugiat occaecat elit voluptate fugiat eu duis. Eu mollit adipisicing magna in.",
+      "Studio 74's ComedySportz improv team is a major facet of our department. It is our tradition to host multiple Improv Nights every year where our team is split into two groups and compete against each other in a series of games. We also compete in the ComedySportz High School League.",
     improvImage: "/improv.jpg",
     festivalDesc:
-      "Pariatur proident excepteur nisi labore. Esse fugiat sit mollit ut id cillum nostrud. Eiusmod fugiat ea cillum ad ipsum ullamco officia irure in mollit incididunt cupidatat reprehenderit officia. Sunt dolor incididunt commodo dolor ut sit. Cupidatat fugiat occaecat elit voluptate fugiat eu duis. Eu mollit adipisicing magna in.",
+      "Studio 74's award-winning students participate annually in festivals such as the Lenaea Theatre Festival, where they compete in various categories such as acting, costumes, makeup, and more. We have won numerous awards and medals for our excellence in theatre.",
     festivalImage: "/lenaea4.jpg",
     disciplineTitle:
       "Merging Together Different Disciplines of Theatre to Create Something... /Spectacular/",
@@ -19,7 +19,7 @@ export const text = {
       acting: "/lenaea5.jpg",
       costumes: "/costumes.jpg",
       makeup: "/makeup.jpeg",
-      props: "/lenaea1.jpg",
+      props: "/props.jpg",
       marketing: "/marketing.jpg",
       sound: "/sound.jpg",
       lights: "/lights.jpg",
@@ -29,13 +29,13 @@ export const text = {
     },
     classTitle: "Training the Next Generation of /Thespians/",
     beginningDesc:
-      "Pariatur proident excepteur nisi labore. Esse fugiat sit mollit ut id cillum nostrud. Eiusmod fugiat ea cillum ad ipsum ullamco officia irure in mollit incididunt cupidatat reprehenderit officia. Sunt dolor incididunt commodo dolor ut sit. Cupidatat fugiat occaecat elit voluptate fugiat eu duis. Eu mollit adipisicing magna in.",
+      "Beginning Drama gives students an introductory training in acting, with emphasis on voice, movement, improvisation, mental and script preparation, and various acting techniques. The course also includes the history of theatre and its contributions to world cultures, as well as playwriting and directing techniques.",
     beginningImage: "/prod.png",
     advancedDesc:
-      "Pariatur proident excepteur nisi labore. Esse fugiat sit mollit ut id cillum nostrud. Eiusmod fugiat ea cillum ad ipsum ullamco officia irure in mollit incididunt cupidatat reprehenderit officia. Sunt dolor incididunt commodo dolor ut sit. Cupidatat fugiat occaecat elit voluptate fugiat eu duis. Eu mollit adipisicing magna in.",
-    advancedImage: "/advdrama.jpeg",
+      "Advanced Drama is for students who want more advanced training in acting. The course dives deeper into analyzing, performing, and evaluating dramatic works. Additionally, there is continued instruction in voice, staging, and character analysis. Students will rehearse and perform for an audience, and will also have the opportunity to participate in festivals and competitions.",
+    advancedImage: "/advdrama.jpg",
     honorsDesc:
-      "Pariatur proident excepteur nisi labore. Esse fugiat sit mollit ut id cillum nostrud. Eiusmod fugiat ea cillum ad ipsum ullamco officia irure in mollit incididunt cupidatat reprehenderit officia. Sunt dolor incididunt commodo dolor ut sit. Cupidatat fugiat occaecat elit voluptate fugiat eu duis. Eu mollit adipisicing magna in.",
+      "Advanced Drama Honors is built for those students who are most interested and practiced in studying acting and the theater. Course study will be based on the skills and knowledge developed in the previous Drama courses and will help students to continue on to more advanced levels of dramatic study. Students will be expected to have a solid foundation of dramatic principles and practices.",
     honorsImage: "/advh.jpg",
     awardsTitle: "Recognized for Excellence in /Theatre/",
     awards: [
@@ -119,7 +119,7 @@ export const productionHeads: Head[] = [
   {
     name: "Kelly Wu",
     role: "Head of Lights",
-    image: "",
+    image: "/team/kelly.jpg",
   },
   {
     name: "Snehil Kakani",
@@ -159,7 +159,7 @@ export const officers: Lead[] = [
     role: "Publicist",
     image: "/team/emily.png",
 
-    bio: "Dolore minim laboris laborum fugiat. Deserunt id enim pariatur qui aliquip cupidatat ex dolor aliqua. Mollit id ad consequ at nulla proident commodo amet ad ullamco consequat voluptate elit adipisicing. Pariatur elit labore mollit fugiat irure ea minim exercitation qui.",
+    bio: "Salutations dear human! I am Emily, apart from acting and marketing; I love to cook, draw, write and sing! :)",
   },
   {
     name: "Eric Szewczyk",
@@ -197,6 +197,12 @@ export type Production = {
 
 export const pastProductions: Production[] = [
   {
+    name: "The Laramie Project",
+    subtitle: "Spring 2024",
+    image: "/laramie.png",
+    link: "",
+  },
+  {
     name: "Ranked: The Musical",
     subtitle: "Fall 2023",
     image: "/ranked.png",
@@ -221,6 +227,19 @@ export const pastProductions: Production[] = [
     link: "https://youtu.be/Q5i8JM3NRQQ",
   },
 ];
+
+export const currentProduction: {
+  title: string;
+  description: string;
+  image: string;
+  display: boolean;
+} = {
+  display: false,
+  title: "The Laramie Project",
+  description:
+    "Adipisicing esse amet ipsum pariatur exercitation. Dolore aliqua esse consequat cillum exercitation exercitation dolor consequat exercitation. Quis aute deserunt nostrud Lorem aute duis esse tempor Lorem minim id consequat deserunt. Commodo commodo anim ipsum cillum qui anim. Nostrud minim do laboris laboris voluptate incididunt ullamco minim deserunt ea et ex. Exercitation velit aliquip laborum voluptate aliquip et nisi nostrud labore elit pariatur. Dolor aute esse quis sit dolore Lorem magna. Velit enim pariatur ullamco irure. Sunt laborum anim est est cupidatat elit do. Voluptate nostrud quis ipsum mollit sint nulla voluptate duis. Magna irure officia velit qui est eiusmod.",
+  image: "/laramie.png",
+};
 
 export const productionButtons: { title: string; link: string }[] = [
   {
