@@ -7,6 +7,7 @@ import {
   officers,
   productionHeads,
 } from "../lib/data";
+import Image from "next/image";
 
 export const metadata = {
   title: "Team",
@@ -15,12 +16,29 @@ export const metadata = {
 export default function Team() {
   return (
     <main className="flex flex-col gap-16">
-      <HorizontalCard
-        image={advisor.image}
-        title={advisor.name}
-        subtitle={advisor.role}
-        content={advisor.bio}
-      />
+      <div className="rounded-2xl group shadow flex flex-col md:grid grid-cols-8 relative justify-start items-stretch bg-white bg-opacity-70 backdrop-blur-md overflow-hidden border border-black border-opacity-10">
+        <div className="relative w-full md:col-span-3 min-h-[60vw] md:min-h-0 z-0">
+          <Image
+            src={advisor.image}
+            fill
+            alt={advisor.name}
+            className="object-cover object-center"
+          />
+        </div>
+        <div
+          className={`px-4 py-5 md:py-[5vw] md:col-span-5 flex justify-center flex-col gap-1`}
+        >
+          <h1 className="font-domine text-3xl md:text-4xl text-black font-bold text-left">
+            {advisor.name}
+          </h1>
+          <h2 className="font-rubik text-red font-semibold text-left text-lg md:text-xl">
+            {advisor.role}
+          </h2>
+          <p className="font-rubik text-base md:text-lg text-black text-left">
+            {advisor.bio}
+          </p>
+        </div>
+      </div>
       <div className="flex flex-col gap-5">
         <h1 className="font-domine text-3xl md:text-4xl text-center font-bold">
           Drama Club <SpecialWord period>Officers</SpecialWord>

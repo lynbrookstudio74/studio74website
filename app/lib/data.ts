@@ -30,7 +30,7 @@ export const text = {
     classTitle: "Training the Next Generation of /Thespians/",
     beginningDesc:
       "Beginning Drama gives students an introductory training in acting, with emphasis on voice, movement, improvisation, mental and script preparation, and various acting techniques. The course also includes the history of theatre and its contributions to world cultures, as well as playwriting and directing techniques.",
-    beginningImage: "/prod.png",
+    beginningImage: "/begdrama.jpg",
     advancedDesc:
       "Advanced Drama is for students who want more advanced training in acting. The course dives deeper into analyzing, performing, and evaluating dramatic works. Additionally, there is continued instruction in voice, staging, and character analysis. Students will rehearse and perform for an audience, and will also have the opportunity to participate in festivals and competitions.",
     advancedImage: "/advdrama.jpg",
@@ -129,10 +129,10 @@ export const productionHeads: Head[] = [
 ];
 
 export const advisor: Lead = {
-  name: "Mr. Larry Wenner",
+  name: "Larry Wenner",
   role: "Department Lead, Club Advisor, Executive Producer & Director",
   image: "/team/wenner.jpg",
-  bio: "Dolore minim laboris laborum fugiat. Deserunt id enim pariatur qui aliquip cupidatat ex dolor aliqua. Mollit id ad consequat nulla proident commodo amet ad ullamco consequat voluptate elit adipisicing. Pariatur elit labore mollit fugiat irure ea minim exercitation qui.",
+  bio: "Larry Wenner joined the LHS staff in 2022 to teach Drama. Mr. Wenner received his MFA in Acting/Directing from Cal State Fullerton (a long time ago) and has been teaching English and Drama since 1999. His favorite acting roles from those days include Christian from Cyrano, Valere from Tartuffe, and Romeo. He spent five years at Medieval Times as Sir Lawrence of Shelby (ask him about his jousting wounds). After that, he thought it better to pursue a safer career like teaching high school.",
 };
 
 export const officers: Lead[] = [

@@ -27,7 +27,8 @@ export default function Shows() {
           />
         </div>
         <h1 className="font-domine relative font-extrabold text-center z-20 text-5xl md:text-6xl text-white">
-          Some Corny Production <SpecialWord period>Statement</SpecialWord>
+          High Quality, Student-Led{" "}
+          <SpecialWord period>Productions</SpecialWord>
         </h1>
       </div>
       {currentProduction.display && (
