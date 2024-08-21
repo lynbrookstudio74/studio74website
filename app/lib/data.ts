@@ -124,7 +124,7 @@ export const productionHeads: Head[] = [
   {
     name: "Snehil Kakani",
     role: "Head of Sound",
-    image: "/team/snehil.webp",
+    image: "/team/snehil.jpeg",
   },
 ];
 
@@ -139,8 +139,8 @@ export const officers: Lead[] = [
   {
     name: "Snehil Kakani",
     role: "President",
-    image: "/team/snehil.webp",
-    bio: "Hey, I'm Snehil! In addition to my passion for acting, I love technology, and produce music, play video games, and lead the sound team in productions!",
+    image: "/team/snehil.jpeg",
+    bio: "What's up? I'm Snehil, and in addition to my passion for acting, I love technology, and I produce music, play video games, and lead the sound team in productions!",
   },
   {
     name: "Charlie Dai",
@@ -179,7 +179,7 @@ export const improvCaptains: Head[] = [
   {
     name: "Snehil Kakani",
     role: "Improv Co-Captain",
-    image: "/team/snehil.webp",
+    image: "/team/snehil.jpeg",
   },
   {
     name: "Eric Szewczyk",
@@ -234,17 +234,16 @@ export const currentProduction: {
   image: string;
   display: boolean;
 } = {
-  display: false,
-  title: "The Laramie Project",
-  description:
-    "Adipisicing esse amet ipsum pariatur exercitation. Dolore aliqua esse consequat cillum exercitation exercitation dolor consequat exercitation. Quis aute deserunt nostrud Lorem aute duis esse tempor Lorem minim id consequat deserunt. Commodo commodo anim ipsum cillum qui anim. Nostrud minim do laboris laboris voluptate incididunt ullamco minim deserunt ea et ex. Exercitation velit aliquip laborum voluptate aliquip et nisi nostrud labore elit pariatur. Dolor aute esse quis sit dolore Lorem magna. Velit enim pariatur ullamco irure. Sunt laborum anim est est cupidatat elit do. Voluptate nostrud quis ipsum mollit sint nulla voluptate duis. Magna irure officia velit qui est eiusmod.",
-  image: "/laramie.png",
+  display: true,
+  title: "Laughing Stock",
+  description: `"Laughing Stock" is a hilarious backstage farce and genuinely affectionate look into the world of the theatre. When The Playhouse, a rustic New England summer theatre, schedules a repertory season of Dracula, Hamlet and Charley's Aunt, comic mayhem ensues. We follow the well-intentioned but over-matched company from outrageous auditions to ego-driven rehearsals through opening nights gone disastrously awry to the elation of a great play well told and the comic and nostalgic season close.`,
+  image: "/laughingstock.png",
 };
 
 export const productionButtons: { title: string; link: string }[] = [
   {
     title: "Audition Information",
-    link: "",
+    link: "", // "https://instagram.com/lynbrookdrama",
   },
   {
     title: "Join Tech",
@@ -252,6 +251,6 @@ export const productionButtons: { title: string; link: string }[] = [
   },
   {
     title: "Ticket Sales",
-    link: "https://lynbrook.myschoolcentral.com",
+    link: "", // "https://lynbrook.myschoolcentral.com",
   },
 ];

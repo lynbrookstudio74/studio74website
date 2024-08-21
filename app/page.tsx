@@ -110,7 +110,7 @@ export default function Home() {
           />
         </div>
       </div>
-      <div>
+      {/*<div>
         <h1 className="font-domine text-center text-black font-extrabold text-4xl md:text-5xl">
           {text.home.awardsTitle.split("/")[0]}
           {text.home.awardsTitle.split("/").length > 1 && (
@@ -124,7 +124,7 @@ export default function Home() {
             <Card {...award} content="" key={award.title} />
           ))}
         </div>
-      </div>
+      </div>*/}
     </main>
   );
 }
