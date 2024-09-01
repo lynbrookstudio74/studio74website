@@ -86,8 +86,30 @@ export default function Navbar() {
                 className={`font-rubik text-lg md:text-xl flex flex-col group transition duration-300 ${
                   router === link.href ? "text-yellow" : "text-black"
                 }`}
+                {...{
+                  target: link.external ? "_blank" : undefined,
+                  rel: link.external ? "noopener noreferrer" : undefined,
+                }}
               >
-                {link.label}
+                <span className="flex gap-1 items-center justify-center">
+                  {link.label}
+                  {link.external && (
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      strokeWidth={1.5}
+                      stroke="currentColor"
+                      className="size-5 mb-0.5"
+                    >
+                      <path
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        d="M13.5 6H5.25A2.25 2.25 0 0 0 3 8.25v10.5A2.25 2.25 0 0 0 5.25 21h10.5A2.25 2.25 0 0 0 18 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25"
+                      />
+                    </svg>
+                  )}
+                </span>
               </Popover.Button>
             )
             // ) : (
@@ -221,8 +243,30 @@ export default function Navbar() {
                 className={`font-rubik text-lg md:text-xl flex flex-col group transition duration-300 ${
                   router === link.href ? "text-yellow" : "text-black"
                 }`}
+                {...{
+                  target: link.external ? "_blank" : undefined,
+                  rel: link.external ? "noopener noreferrer" : undefined,
+                }}
               >
-                {link.label}
+                <span className="flex gap-1 items-center justify-center">
+                  {link.label}
+                  {link.external && (
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      strokeWidth={1.5}
+                      stroke="currentColor"
+                      className="size-5 mb-0.5"
+                    >
+                      <path
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        d="M13.5 6H5.25A2.25 2.25 0 0 0 3 8.25v10.5A2.25 2.25 0 0 0 5.25 21h10.5A2.25 2.25 0 0 0 18 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25"
+                      />
+                    </svg>
+                  )}
+                </span>
                 <span
                   className={`block max-w-0 group-hover:max-w-full transition-all duration-300 -mt-0.5 h-0.5 ${
                     router === link.href ? "bg-yellow" : "bg-black"

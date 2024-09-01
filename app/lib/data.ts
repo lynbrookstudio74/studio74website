@@ -71,6 +71,7 @@ export const text = {
 export type NavLink = {
   href: string;
   label: string;
+  external?: boolean;
 };
 export const navLinks: NavLink[] = [
   {
@@ -84,6 +85,11 @@ export const navLinks: NavLink[] = [
   {
     href: "/productions",
     label: "Productions",
+  },
+  {
+    href: "https://docs.google.com/forms/d/e/1FAIpQLSfzZlWjNhHL6e_hJeE5LbnqgE3qTVCVJLrBK2NzSoiFj7euUA/viewform?usp=sf_link",
+    label: "Join The Club",
+    external: true,
   },
 ];
 
@@ -243,11 +249,11 @@ export const currentProduction: {
 export const productionButtons: { title: string; link: string }[] = [
   {
     title: "Audition Information",
-    link: "", // "https://instagram.com/lynbrookdrama",
+    link: "https://instagram.com/lynbrookdrama",
   },
   {
     title: "Join Tech",
-    link: "",
+    link: "https://docs.google.com/forms/d/e/1FAIpQLSdT_NE2Rs2dMkqKMAQyziDGcmdeoOx6i9qUV-itvrRmjhPDYA/viewform?usp=sf_link",
   },
   {
     title: "Ticket Sales",

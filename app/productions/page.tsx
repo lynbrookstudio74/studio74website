@@ -63,7 +63,7 @@ export default function Shows() {
                         ? "cursor-not-allowed bg-black bg-opacity-20"
                         : "bg-red bg-opacity-80"
                     }`}
-                    href={button.link}
+                    href={button.link === "" ? undefined : button.link}
                     target="_blank"
                     rel="noopener noreferrer"
                   >
