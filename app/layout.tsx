@@ -22,8 +22,7 @@ export const metadata: Metadata = {
     template: "%s | Lynbrook Drama",
     default: "Home",
   },
-  description:
-    "Aute consectetur eiusmod incididunt non quis irure aliquip qui ullamco commodo exercitation nostrud. Aute consectetur eiusmod incididunt non quis irure aliquip qui ullamco commodo exercitation nostrud. Aute consectetur eiusmod incididunt non quis irure aliquip qui ullamco commodo exercitation nostrud.",
+  description: "A Place for Everyone.",
   generator: "Studio 74",
   applicationName: "Lynbrook Drama",
   keywords: ["Lynbrook", "Drama", "Theatre", "Studio 74"],
