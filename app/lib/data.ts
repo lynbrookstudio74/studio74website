@@ -144,13 +144,13 @@ export const advisor: Lead = {
 export const officers: Lead[] = [
   {
     name: "Snehil Kakani",
-    role: "President",
+    role: "Co-President",
     image: "/team/snehil.jpeg",
     bio: "What's up? I'm Snehil, and in addition to my passion for acting, I love technology, and I produce music, play video games, and lead the sound team in productions!",
   },
   {
     name: "Charlie Dai",
-    role: "Vice President of Operations",
+    role: "Co-President",
     image: "/team/charlie.png",
     bio: "Hi!! My name is Charlie! I am apart of the stage management and costume teams for drama productions! Besides that, I love poetry, video games, and photography!",
   },
@@ -164,7 +164,6 @@ export const officers: Lead[] = [
     name: "Emily Xu",
     role: "Publicist",
     image: "/team/emily.png",
-
     bio: "Salutations dear human! I am Emily, apart from acting and marketing; I love to cook, draw, write and sing! :)",
   },
   {
@@ -257,6 +256,6 @@ export const productionButtons: { title: string; link: string }[] = [
   },
   {
     title: "Ticket Sales",
-    link: "", // "https://lynbrook.myschoolcentral.com",
+    link: "https://lynbrook.myschoolcentral.com",
   },
 ];
