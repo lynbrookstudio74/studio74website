@@ -258,7 +258,7 @@ export const productionButtons: { title: string; link: string }[] = [
   },
   {
     title: "Join Tech",
-    link: "https://docs.google.com/forms/d/e/1FAIpQLSdT_NE2Rs2dMkqKMAQyziDGcmdeoOx6i9qUV-itvrRmjhPDYA/viewform?usp=sf_link",
+    link: "https://docs.google.com/forms/d/e/1FAIpQLSdp4to0TygvSaAUdiej0QbSW0QpjP603__YmPFpLuVXDgvTGA/viewform?usp=dialog",
   },
   {
     title: "Ticket Sales",
