@@ -240,8 +240,8 @@ export const currentProduction: {
   display: boolean;
 } = {
   display: true,
-  title: "Laughing Stock",
-  description: `"Laughing Stock" is a hilarious backstage farce and genuinely affectionate look into the world of the theatre. When The Playhouse, a rustic New England summer theatre, schedules a repertory season of Dracula, Hamlet and Charley's Aunt, comic mayhem ensues. We follow the well-intentioned but over-matched company from outrageous auditions to ego-driven rehearsals through opening nights gone disastrously awry to the elation of a great play well told and the comic and nostalgic season close.`,
+  title: "Fiddler on the Roof",
+  description: `"Fiddler on the Roof" is a hilarious backstage farce and genuinely affectionate look into the world of the theatre. When The Playhouse, a rustic New England summer theatre, schedules a repertory season of Dracula, Hamlet and Charley's Aunt, comic mayhem ensues. We follow the well-intentioned but over-matched company from outrageous auditions to ego-driven rehearsals through opening nights gone disastrously awry to the elation of a great play well told and the comic and nostalgic season close.`,
   image: "/laughingstock.png",
 };
 
