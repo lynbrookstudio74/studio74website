@@ -202,6 +202,12 @@ export type Production = {
 
 export const pastProductions: Production[] = [
   {
+    name: "Laughing Stock",
+    subtitle: "Fall 2024",
+    image: "/laughingstock.png",
+    link: "https://youtu.be/7erYKVXOw6A"
+  },
+  {
     name: "The Laramie Project",
     subtitle: "Spring 2024",
     image: "/laramie.png",
