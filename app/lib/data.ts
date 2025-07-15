@@ -235,7 +235,7 @@ export const pastProductions: Production[] = [
     name: "Romeo & Juliet",
     image: "/rj.png",
     subtitle: "Spring 2022",
-    link: "https://youtu.be/Q5i8JM3NRQQ",
+    link: "https://youtu.be/ngWYAiN_Yh8",
   },
 ];
 
