@@ -205,7 +205,7 @@ export const pastProductions: Production[] = [
     name: "Fiddler on the Roof",
     subtitle: "Spring 2025",
     image: "/fiddler.png",
-    link: ""
+    link: "https://https://www.youtube.com/watch?v=J-U_f4oMTOg&t=1s"
   },
   {
     name: "Laughing Stock",
