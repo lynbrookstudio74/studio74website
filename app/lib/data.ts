@@ -175,7 +175,7 @@ export const officers: Lead[] = [
   {
     name: "Grace Cho",
     role: "Treasurer",
-    image: "/team/ellie.png",
+    image: "/team/grace.jpeg",
     bio: "Hi, I'm Grace! Apart from acting, I like sleeping and eating snacks!",
   },
 ];
