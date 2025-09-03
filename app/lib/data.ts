@@ -108,19 +108,19 @@ export const productionHeads: Head[] = [
     image: "/team/charlie.png",
   },
   {
-    name: "Gen Yates",
-    role: "Head of Costumes & Props",
-    image: "/team/gen.jpg",
-  },
-  {
     name: "Ellie York",
-    role: "Head of Costumes & Makeup",
+    role: "Head of Stage Management, Makeup, & Costumes",
     image: "/team/ellie.png",
   },
   {
-    name: "Audrey Zhu",
-    role: "Head of Costumes, Makeup & Marketing",
-    image: "/team/audrey.jpeg",
+    name: "Gen Yates",
+    role: "Head of Lights, Props, & Marketing",
+    image: "/team/gen.jpg",
+  },
+  {
+    name: "Saakshi Athreya",
+    role: "Head of Set",
+    image: "/team/saakshi.JPEG",
   },
   {
     name: "Kelly Wu",
@@ -128,9 +128,14 @@ export const productionHeads: Head[] = [
     image: "/team/kelly.jpg",
   },
   {
-    name: "Snehil Kakani",
+    name: "Emily Xu",
+    role: "Head of Marketing & Set",
+    image: "/team/emily.jpeg",
+  },
+  {
+    name: "Kavin Siva",
     role: "Head of Sound",
-    image: "/team/snehil.jpeg",
+    image: "/team/kavin.jpg",
   },
 ];
 
