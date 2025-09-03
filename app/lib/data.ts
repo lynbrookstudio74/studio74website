@@ -254,7 +254,7 @@ export const currentProduction: {
   display: true,
   title: "It Can't Happen Here",
   description: `"It Can't Happen Here" is a cautionary dark satire about the fragility of democracy and how fascism can take hold even in the land of liberty, "It Can't Happen Here" follows the ascent of a demagogue who becomes president of the United States by promising to return the country to greatness. Witnessing the new president’s tyranny from the sidelines is a liberal, middle-class newspaper editor from Vermont who trusts the system will fix itself—until he ends up in a prison camp. Sinclair Lewis’ eerily prescient 1935 novel gets a fresh update in this adaptation that examines what brings a citizenry to the point of sacrificing its own freedom and how a courageous few can prevail to overcome the fall.`,
-  image: "/fiddler.png",
+  image: "/itcanthappenhere.JPEG",
 };
 
 export const productionButtons: { title: string; link: string }[] = [
