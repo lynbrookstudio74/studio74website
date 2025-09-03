@@ -170,7 +170,7 @@ export const officers: Lead[] = [
     name: "Seir Szewczyk",
     role: "Secretary",
     image: "/team/eric.jpg",
-    bio: "Hello, I'm Seir. I love dancing, singing, acting, and fashion design! I also enjoy learning, and shockingly enough, talking to people. I dare you to try and pronounce my last name >:)",
+    bio: "Hello, I'm Seir. I love dancing, singing, acting, photography, and fashion design! I also enjoy learning, and shockingly enough, talking to people. I dare you to try and pronounce my last name.",
   },
   {
     name: "Grace Cho",
