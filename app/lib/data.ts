@@ -143,53 +143,53 @@ export const advisor: Lead = {
 
 export const officers: Lead[] = [
   {
-    name: "Snehil Kakani",
-    role: "Co-President",
-    image: "/team/snehil.jpeg",
-    bio: "What's up? I'm Snehil, and in addition to my passion for acting, I love technology, and I produce music, play video games, and lead the sound team in productions!",
-  },
-  {
     name: "Charlie Dai",
-    role: "Co-President",
+    role: "President",
     image: "/team/charlie.png",
-    bio: "Hi!! My name is Charlie! I am apart of the stage management and costume teams for drama productions! Besides that, I love poetry, video games, and photography!",
+    bio: "Hi! My name is Charlie, and I'm apart of the costumes and stage management teams for productions! I love photography, art, motorsports, and trinkets!",
   },
   {
     name: "Saakshi Athreya",
-    role: "Vice President of Events",
+    role: "Vice President of Operations",
     image: "/team/saakshi.jpg",
-    bio: "Hi, I'm Saakshi! Other than being part of the crew, I love to sing and make music! I am also so excited to be an officer this year!",
+    bio: "Hi, I'm Saakshi! Other than being part of the drama crew, I love to sing and make music! I am also so excited to be an officer this year!",
+  },
+  {
+    name: "Ellie York",
+    role: "Vice President of Events",
+    image: "/team/ellie.png",
+    bio: "Hi, I'm Ellie! Beyond tech, I enjoy thrifting, Pompompurin, Olivia Rodrigo, sleeping, nail art, makeup, and glitter!",
   },
   {
     name: "Emily Xu",
     role: "Publicist",
     image: "/team/emily.png",
-    bio: "Salutations dear human! I am Emily, apart from acting and marketing; I love to cook, draw, write and sing! :)",
+    bio: "Salutations dear human! I am Emily, apart from acting and marketing; I love cooking, drawing, writing, sing, and Musical Theater! :)",
   },
   {
-    name: "Eric Szewczyk",
+    name: "Seir Szewczyk",
     role: "Secretary",
     image: "/team/eric.jpg",
-    bio: "Hello, I'm Eric. I love dancing, singing, acting, and fashion design! I also enjoy learning, and shockingly enough, talking to people. I dare you to try and pronounce my last name >:)",
+    bio: "Hello, I'm Seir. I love dancing, singing, acting, and fashion design! I also enjoy learning, and shockingly enough, talking to people. I dare you to try and pronounce my last name >:)",
   },
   {
-    name: "Ellie York",
+    name: "Grace Cho",
     role: "Treasurer",
     image: "/team/ellie.png",
-    bio: "Hi, I'm Ellie! Beyond tech, I enjoy thrifting, Pompompurin, Olivia Rodrigo, sleeping, nail art, makeup, and glitter!",
+    bio: "Hi, I'm Grace! Apart from acting, I like sleeping and eating snacks!",
   },
 ];
 
 export const improvCaptains: Head[] = [
   {
-    name: "Snehil Kakani",
-    role: "Improv Co-Captain",
-    image: "/team/snehil.jpeg",
-  },
-  {
-    name: "Eric Szewczyk",
+    name: "Seir Szewczyk",
     role: "Improv Co-Captain",
     image: "/team/eric.jpg",
+  },
+  {
+    name: "Emily Xu",
+    role: "Improv Co-Captain",
+    image: "/team/emily.png",
   },
 ];
 
@@ -201,6 +201,12 @@ export type Production = {
 };
 
 export const pastProductions: Production[] = [
+  {
+    name: "Fiddler on the Roof",
+    subtitle: "Spring 2025",
+    image: "/fiddler.png",
+    link: ""
+  },
   {
     name: "Laughing Stock",
     subtitle: "Fall 2024",
@@ -246,8 +252,8 @@ export const currentProduction: {
   display: boolean;
 } = {
   display: true,
-  title: "Fiddler on the Roof",
-  description: `"Fiddler on the Roof" is a legendary musical that tells the story of Tevye the milkman, who clings to the Jewish customs of Anatevka, his hometown in pre-Revolutionary Russia. As his daughters question these old-fashioned traditions and the world changes ominously around them, Tevye is challenged to find a new way to learn and to love.`,
+  title: "It Can't Happen Here",
+  description: `"It Can't Happen Here" is a cautionary dark satire about the fragility of democracy and how fascism can take hold even in the land of liberty, "It Can't Happen Here" follows the ascent of a demagogue who becomes president of the United States by promising to return the country to greatness. Witnessing the new president’s tyranny from the sidelines is a liberal, middle-class newspaper editor from Vermont who trusts the system will fix itself—until he ends up in a prison camp. Sinclair Lewis’ eerily prescient 1935 novel gets a fresh update in this adaptation that examines what brings a citizenry to the point of sacrificing its own freedom and how a courageous few can prevail to overcome the fall.`,
   image: "/fiddler.png",
 };
 
