@@ -120,7 +120,7 @@ export const productionHeads: Head[] = [
   {
     name: "Saakshi Athreya",
     role: "Head of Set",
-    image: "/team/saakshi.JPEG",
+    image: "/team/saakshi2.JPEG",
   },
   {
     name: "Kelly Wu",
@@ -130,7 +130,7 @@ export const productionHeads: Head[] = [
   {
     name: "Emily Xu",
     role: "Head of Marketing & Set",
-    image: "/team/emily.jpeg",
+    image: "/team/emily.png",
   },
   {
     name: "Kavin Siva",
@@ -156,7 +156,7 @@ export const officers: Lead[] = [
   {
     name: "Saakshi Athreya",
     role: "Vice President of Operations",
-    image: "/team/saakshi.jpg",
+    image: "/team/saakshi2.JPEG",
     bio: "Hi, I'm Saakshi! Other than being part of the drama crew, I love to sing and make music! I am also so excited to be an officer this year!",
   },
   {
