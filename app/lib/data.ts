@@ -137,6 +137,11 @@ export const productionHeads: Head[] = [
     role: "Head of Sound",
     image: "/team/kavin.jpg",
   },
+  {
+    name: "Elizabeth Otto",
+    role: "Head of Sound",
+    image: "/team/elizabeth.jpg",
+  },
 ];
 
 export const advisor: Lead = {
